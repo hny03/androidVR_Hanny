@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class endofGame : MonoBehaviour
 {
-    public void EndOfGame()
+   public void EndOfGame()
     {
+        Debug.Log("HIT");
         Application.Quit();
-    }    
+    }
 }
